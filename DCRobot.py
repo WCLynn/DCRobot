@@ -27,8 +27,9 @@ ydl_opts = {
     "extractaudio": True,
     'audioquality': 1,
     'nocheckcertificate': True,
-    #'cookies': r'/etc/secrets/cookies.txt',
-    'cookies': cookies,
+    'cookies': r'/etc/secrets/cookies.txt',
+    #'cookies': cookies,
+    'proxy': 'http://127.0.0.1:7890'
 }
 
 # if os.path.exists('cookies.txt'):
