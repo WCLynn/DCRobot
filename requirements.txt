@@ -1,0 +1,8 @@
+pytube
+discord.py
+yt-dlp
+ffmpeg-python
+aiofiles
+discord[voice]
+flask
+PyNaCl
